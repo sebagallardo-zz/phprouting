@@ -2,9 +2,11 @@
 //opcional
 session_start();
 
-//incluyo liberria Request de Symfony, para obtener información del path y los párametros
-require '/vendor/autoload.php'; 
+//Clases de los controladores.
 require 'controller.php';
+
+//uso liberia Request de Symfony, para obtener información del path y los párametros
+require '/vendor/autoload.php'; 
 use Symfony\Component\HttpFoundation\Request;
 $request = Request::createFromGlobals();
 
