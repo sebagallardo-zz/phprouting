@@ -4,7 +4,7 @@ class Example
 {
 	public function action()
 	{
-		echo "Hello!";
+		echo "/example/action";
 	}
 
 	public function run($action){
